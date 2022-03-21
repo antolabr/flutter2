@@ -35,8 +35,8 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: const Center(
-        child: Text('data'),
+      body: Center(
+        child: Image.asset('images/pizza2.png'),
       ),
     );
   }
